@@ -1,8 +1,8 @@
 # logServer
-The repository contains the materials I submitted for the homework project of the "Computer Systems & Programming" university course held during the academic year 2023/24.
+This repository contains the materials I submitted for the homework project of the "Computer Systems & Programming" university course held during the academic year 2023/24.
 The objective of the project was to implement a "log server" in C,  i.e. a server that writes to a log file the inputs it receives from clients.
 
-Explanation of the files contained in the repository
+# Explanation of the files contained in the repository
 - logClient.c
 It is the source code for a client that contacts the server. In particular, the server is able to manage an unlimited number of clients. It means that it is a “concurrent server” (a server that is able to handle multiple clients at the same time), so we can run multiple instances of clients and test that the server works properly.
 - logServer.c
