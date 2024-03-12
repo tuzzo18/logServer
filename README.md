@@ -10,7 +10,7 @@ It is the source code for the server.
 - **logsRotation.c**<br>
 This file contains my implementation of the logs rotation mechanism. Here is the specification to implement: "When the log file size exceed a given threshold, the server should cancel the oldest log file in the log directory and create a new log file. In this case, the server should not create a new log file at start-up, but rather append to the most recent log file in the directory."
 - **projectReport.pdf**<br>
-This report explains how I solved the main problems encountered in the implementation of such server and why I made certain choices.
+This report explains how I solved the main problems encountered in the implementation of such server and why I made certain choices. The main problems were: file locking, signal handling and logs rotation.
 - **softwareArchitecture.pdf**<br>
 This pdf explains pictorially the main idea behind the software architecture: to implement such server I used the fork() system call to create a dedicated child process to handle each client. This mechanism is the same one used by inetd (internet service daemon).
 - **userManual.pdf**<br>
