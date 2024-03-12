@@ -14,4 +14,4 @@ This report explains how I solved the main problems encountered in the implement
 - **softwareArchitecture.pdf**<br>
 This pdf explains pictorially the main idea behind the software architecture: to implement such server I used the fork() system call to create a dedicated child process to handle each client. This mechanism is the same one used by inetd (internet service daemon).
 - **userManual.pdf**<br>
-This pdf contains the commands to execute to properly run the server and the clients.
+This pdf contains the commands to properly run the server and the clients.
